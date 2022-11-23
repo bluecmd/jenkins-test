@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello World'
+                echo 'Hello World - development edition'
                 echo params.Branch
                 sh 'sleep 15'
                 echo 'Done!'
